@@ -84,12 +84,54 @@
                 <p>Email: <a href="mailto:mostafa.shaaban.shanab@gmail.com">mostafa.shaaban.shanab@gmail.com</a></p>
                 <p>Phone: +201025693598</p>
                 <p>GitHub: <a href="https://github.com/Mostafa-Shanab">Mostafa-Shanab</a></p>
-                <p>LinkedIn: <a href="https://www.linkedin.com/in/mostafa-shanab/">mostafa-shanab</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/mostafa-shanab-frontend-developer/">mostafa-shanab</a>
+                </p>
                 <p>
                     <a href="CV/Mostafa_Shanab.pdf" download="Mostafa-Shanab-CV.pdf" class="download-btn">
                         Download CV
                     </a>
                 </p>
+
+                <form action="">
+
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter Name" />
+
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter Email" />
+
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" />
+
+                    <label>Preferred Contact Method</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="contact_method" value="email" checked /> Email</label>
+                        <label><input type="radio" name="contact_method" value="phone" /> Phone</label>
+                        <label><input type="radio" name="contact_method" value="whatsapp" /> WhatsApp</label>
+                    </div>
+
+                    <label for="date">Preferred Contact Date</label>
+                    <input type="date" id="date" name="contact_date" />
+
+                    <label for="time">Preferred Contact Time</label>
+                    <input type="time" id="time" name="contact_time" />
+
+                    <label>What services are you interested in?</label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="services" value="web" /> Web Development</label>
+                        <label><input type="checkbox" name="services" value="mobile" /> Mobile App Development</label>
+                        <label><input type="checkbox" name="services" value="seo" /> SEO</label>
+                        <label><input type="checkbox" name="services" value="support" /> Technical Support</label>
+                    </div>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <br>
+
+                    <button type="submit">Submit</button>
+                </form>
+
             </section>
         </div>
     </main>

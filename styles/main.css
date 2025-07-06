@@ -99,6 +99,16 @@ main a {
 
 /* End Download Button */
 
+/* Start Form */
+form label {
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 6px;
+    font-weight: bold;
+}
+
+/* End Form */
+
 /* End main */
 footer {
     text-align: center;
