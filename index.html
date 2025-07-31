@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mostafa Shanab | Front-End Developer Portfolio</title>
+    <link rel="stylesheet" href="styles/main.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Mostafa Shanab</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <section id="hero">
+                <h2>Front-End Developer</h2>
+                <p>Passionate about building responsive and accessible Web Applications.
+                </p>
+            </section>
+
+            <section id="about">
+                <h2>About Me</h2>
+                <p>Computer Science Graduate (B.Sc., Ain Shams University '25), with a strong GPA (3.760)
+                    and
+                    hands-on experience in web development, machine learning, and software engineering. I've enrolled in
+                    the
+                    DEBI Program by Egypt's Ministry of Communications and Information Technology, focused on React
+                    Front-End Development. I'm also
+                    certified in Full Stack PHP Development by ITI.</p>
+            </section>
+
+            <section id="projects">
+                <h2>Projects</h2>
+                <ul>
+                    <li><strong>E-Commerce Website</strong> - HTML, CSS, JS, PHP, MySQL [<a
+                            href="https://github.com/Mostafa-Shanab/ITI-PHP-Training">Repo</a>] [<a
+                            href="https://mostafa-shanab.github.io/E-Commerce-Website-Ultras/">Demo</a>]</li>
+                    <li><strong>Web Elzero (Template 1)</strong> - HTML, CSS [<a
+                            href="https://github.com/Mostafa-Shanab/Web-Elzero-Template-1">Repo</a>] [<a
+                            href="https://mostafa-shanab.github.io/Web-Elzero-Template-1/">Demo</a>]</li>
+                    <li><strong>Forum Discussion Classification</strong> - BERT, NLP, Python [<a
+                            href="https://github.com/Mostafa-Shanab/Forum-Discussion-Classification">Repo</a>]</li>
+                    <li><strong>Deep Learning Image Segmentation</strong> - UNet, SegNet, DeepLab [<a
+                            href="https://github.com/Mostafa-Shanab/Image-Processing">Repo</a>]</li>
+                    <li><strong>Borrows Wheeler Compression</strong> - C# [<a
+                            href="https://github.com/Mostafa-Shanab/Borrow_Wheeler/tree/main">Repo</a>]</li>
+                    <li><strong>Apartment Rent Prediction</strong> - ML & Regression Models [<a
+                            href="https://github.com/Mostafa-Shanab/Apartment-Rent-Prediction">Repo</a>]</li>
+                    <li><strong>Sentiment Analysis</strong> - NLP, Python [<a
+                            href="https://github.com/Mostafa-Shanab/Sentiment-Analysis">Repo</a>]</li>
+                </ul>
+            </section>
+
+            <section id="certificates">
+                <h2>Certificates</h2>
+                <ul>
+                    <li>DEBI Front-End Development - Ministry of Communications and Information Technology (React,
+                        Node.js, Docker)</li>
+                    <li>Full Stack PHP Training - ITI <a
+                            href="https://drive.google.com/file/d/1fsbibHc5-f36lthAB807C3TJ_BQua7Ge/view">[Cert]</a>
+                    </li>
+                    <li>Machine Learning Competition - 3rd Place <a
+                            href="https://drive.google.com/file/d/18GTthB8VjzwKXEfKsvtIM4ZlEdGB1Sw0/view">[Cert]</a>
+                    </li>
+                    <li>Software Engineer Intern - HackerRank <a
+                            href="https://www.hackerrank.com/certificates/b9ed17937a6a">[Cert]</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="contact">
+                <h2>Contact Me</h2>
+                <p>Email: <a href="mailto:mostafa.shaaban.shanab@gmail.com">mostafa.shaaban.shanab@gmail.com</a></p>
+                <p>Phone: <a href="tel:+201025693598">+201025693598</a></p>
+                <p>GitHub: <a href="https://github.com/Mostafa-Shanab">Mostafa-Shanab</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/mostafa-shanab-frontend-developer/">mostafa-shanab</a>
+                </p>
+                <p>
+                    <a href="CV/Mostafa_Shanab_CV.pdf" download="Mostafa_Shanab_CV.pdf" class="download-btn">
+                        Download CV
+                    </a>
+                </p>
+
+                <form action="">
+
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter Name" />
+
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter Email" />
+
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" />
+
+                    <label>Preferred Contact Method</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="contact_method" value="email" checked /> Email</label>
+                        <label><input type="radio" name="contact_method" value="phone" /> Phone</label>
+                        <label><input type="radio" name="contact_method" value="whatsapp" /> WhatsApp</label>
+                    </div>
+
+                    <label for="date">Preferred Contact Date</label>
+                    <input type="date" id="date" name="contact_date" />
+
+                    <label for="time">Preferred Contact Time</label>
+                    <input type="time" id="time" name="contact_time" />
+
+                    <label>What services are you interested in?</label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="services" value="web" /> Web Development</label>
+                        <label><input type="checkbox" name="services" value="mobile" /> Mobile App Development</label>
+                        <label><input type="checkbox" name="services" value="seo" /> SEO</label>
+                        <label><input type="checkbox" name="services" value="support" /> Technical Support</label>
+                    </div>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <br>
+
+                    <button type="submit">Submit</button>
+                </form>
+
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mostafa Shanab. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
